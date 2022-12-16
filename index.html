@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/sohel.css">
+</head>
+
+<body>
+
+    <span class="screen-darken"></span>
+
+    <header class="section-header py-1 py-4" id="header">
+        <div class="container">
+
+            <div class="d-flex justify-content-between align-items-center">
+                <a class="navbar-brand d-md-none" href="/">
+                    <img class="logo" title="sam logo" alt="sam logo" src="./assets/img/logo.png" alt="">
+                </a>
+                <div>
+
+                    <button data-trigger="navbar_main" class="d-md-none btn btn-warning" type="button"> <i
+                            class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- ============= COMPONENT ============== -->
+            <nav id="navbar_main" class="mobile-offcanvas navbar navbar-expand-md   ">
+                <div class="container-fluid">
+                    <div class="offcanvas-header">
+                        <button class="btn-close float-end"></button>
+                    </div>
+                    <a class="navbar-brand " href="/">
+                        <img class="logo" title="sam logo" alt="sam logo" src="./assets/img/logo.png" alt="">
+                    </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-md-4"> <a aria-label="Explore" class="nav-link" href="#">Explore </a>
+                        </li>
+                        <li class="nav-item mx-md-4"><a aria-label="Creators" class="nav-link" href="#"> Creators </a>
+                        </li>
+                        <li class="nav-item mx-md-4"><a aria-label="Community" class="nav-link" href="#"> Community </a>
+                        </li>
+
+                    </ul>
+                    <div>
+
+                        <a href="#" aria-label="Connect Wallet" class="header_btn_link btn rounded-0">Connect Wallet</a>
+                    </div>
+
+                </div>
+                <!-- container-fluid.// -->
+            </nav>
+            <!-- ============= COMPONENT END// ============== -->
+
+        </div>
+    </header>
+    <main id="main_box">
+        <div class="header_sec position-relative ">
+            <div class="bubble_1 bubble"></div>
+            <div class="bubble_2 bubble"></div>
+            <div class="bubble_3 bubble"></div>
+
+
+            <div class="container h-100 ">
+                <div class="row h-100    ">
+                    <div class="col-md-6 d-flex flex-column justify-content-center align-items-center align-items-md-start">
+                        <span class="header_txt h1 text-white text-center text-md-start">Explore, Buy and Sell the
+                            <span>Best NFTs!</span></span>
+
+                        <div class="d-sm-flex">
+                            <div class="me-sm-3">
+
+                                <a href="#" aria-label="Explore" class="header_btn_link mt-3 btn_same btn rounded-0 btn_yellow">Explore</a>
+                            </div>
+                            <div>
+
+                                <a href="#" aria-label="Create" class="header_btn_link mt-3 btn_same btn text-white rounded-0 ">Create</a>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-5 ">
+
+                            <div class="h1 text-white me-4 me-md-5"> <span id="count1" class=""></span><span>k+</span>
+                            </div>
+
+
+                            <div class="h1 text-white me-4 me-md-5"> <span id="count2" class=""></span><span>k+</span>
+                            </div>
+
+                            <div class="h1 text-white"> <span id="count3" class=""></span><span>k+</span></div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-md-4  mx-auto mt-5 mt-md-0">
+                        <div class="hero_img_box position-relative">
+
+                            <img src="./assets/img/hero.jpg" class="img-fluid" alt="">
+                        </div>
+
+
+                    </div>
+                    <div class="col-12 down_arrow_box ">
+                        <a href="#about" class="down_arrow m-auto "><i class="fa-solid fa-arrow-down text-white"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="./assets/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="./assets/js/sohel.js"></script>
+</body>
+
+</html>
